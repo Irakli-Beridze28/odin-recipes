@@ -12,13 +12,15 @@
     color: rgb(192, 147, 0)
 }
 
-#vanillaimg {
+#iceimg {
     height: auto;
     width: 450px;
+    border-radius: 8px;
 }
 
 .header-text {
     font-family: 'Times New Roman', Times, serif;
     background-color: beige;
     color: black;
+    border-radius: 8px;
 }
