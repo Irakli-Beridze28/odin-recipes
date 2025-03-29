@@ -1,0 +1,12 @@
+.main-header {
+    background-color: rgb(153, 153, 153);
+    color: rgb(255, 196, 0);
+    text-align: center;
+    font-family: copperplate, papyrus, sans-serif;
+    font-size: 32px;
+}
+
+.food-list {
+    color: rgb(255, 196, 0);
+    background-color: rgb(206, 206, 206);
+}
