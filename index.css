@@ -10,3 +10,9 @@
     color: rgb(255, 196, 0);
     background-color: rgb(206, 206, 206);
 }
+
+img#vikingimg {
+    height: auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
