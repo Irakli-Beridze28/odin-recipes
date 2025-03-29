@@ -1,0 +1,24 @@
+.headers {
+    background-color: rgb(153, 153, 153);
+    color: rgb(255, 196, 0);
+    text-align: center;
+    font-family: copperplate, papyrus, sans-serif;
+    font-size: 32px;
+}
+
+.sub.headers {
+    font-size: 24px;
+    background-color: rgb(206, 206, 206);
+    color: rgb(192, 147, 0)
+}
+
+#image {
+    height: auto;
+    width: 450px;
+}
+
+.header-text {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+    color: black;
+}
