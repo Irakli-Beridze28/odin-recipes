@@ -1,18 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* https://www.color-hex.com/color-palette/1057422 color inspiration from here */
 .main-header {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(57,86,72);
     color: rgb(255, 196, 0);
     text-align: center;
     font-family: copperplate, papyrus, sans-serif;
     font-size: 32px;
+    border: 3px solid black;
+    padding: 12px;
 }
 
-.food-list {
+/* DISCONTINUED BUTTON FOOD LINK CSS STYLER */
+/* .food-list {
     color: rgb(255, 196, 0);
-    background-color: rgb(206, 206, 206);
-}
+    background-color: rgb(158,173,133);
+    padding: 12px;
+    border: 3px solid black;
+} */
 
 img#vikingimg {
+    display: block;
+    margin: 0 auto;
     height: auto;
     max-width: 100%;
-    border-radius: 8px;
+    border: 3px solid black;
+}
+
+#frenchtoast, #grilled-peanut, #ice-cream {
+    display: inline-block;
+    background-color: rgb(158,173,133);
+    height: auto;
+    width: 509px;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+    margin: 0px -2.9px;
 }
