@@ -1,26 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .headers {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(57,86,72);
     color: rgb(255, 196, 0);
     text-align: center;
     font-family: copperplate, papyrus, sans-serif;
     font-size: 32px;
 }
 
+.recipe-card {
+    border: 3px solid black;
+    margin: 10px;
+    padding-bottom: 51px;
+    background-color: rgb(221, 239, 190);
+}
+
+h1.headers {
+    border: 3px solid black;
+    padding: 12px;
+}
+
 .sub.headers {
     font-size: 24px;
-    background-color: rgb(206, 206, 206);
-    color: rgb(192, 147, 0);
+    display: block;
+    background-color: rgb(88,129,87);
+    color: rgb(249, 249, 249);
+    border: 2px solid black;
+    padding: 3px;
+    margin-top: -1px;
+    margin-right: -2px;
 }
 
 #toast {
     height: auto;
-    width: 450px;
-    border-radius: 8px;
+    width: 589px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    float: left;
 }
 
-.header-text {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: beige;
-    color: black;
-    border-radius: 8px;
+.description-text {
+    display: block;
+    margin-left: 590px;
+    padding: 5px;
+}
+
+.ingredients {
+    display: block;
+    margin-left: 610px;
+    padding: 5px;
+}
+
+.instructions {
+    display: block;
+    margin-left: 610px;
+    padding: 5px 5px 0px 5px;
 }
